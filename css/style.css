@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ccff99;
+}
+#myCanvas{
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #b1fae2;
+}
+.btn {
+    margin-left: 25%;
+}
+button{
+    margin-left: 25px;
+    padding: 12px;
+    font-size: large;
+    color: #000000;
+    background-color: #ccff99;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+button:hover
+{
+    border: 1px solid #000000;
+    color: #fdfdfd;
+    background-color: #e90b0b;
+    
+}
+p{
+    padding-top: 25px;
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #000000;
+}
+#daire {
+    background-color: aqua;
+}
+#daire:hover {
+    background-color: #000;
+}
+#kare {
+    background-color: #f10303ec;
+}
+#kare:hover {
+    background-color: #000;
+}
+#ucgen {
+    background-color: #d38d54;
+}
+#ucgen:hover {
+    background-color: #000;
+}
+#cizgi {
+    background-color: rgb(17, 166, 235);
+}
+#cizgi:hover {
+    background-color: #000;
+}
+
+#temizle {
+    background-color: rgb(45, 194, 26);
+}
+#temizle:hover {
+    background-color: #000;
+}

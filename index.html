@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Js Canvas Geometrik Sekil Cizme</title>
+</head>
+<body>
+    <p id="kordinat">X ve Y koordinatları</p>
+    <h4 id="p1" style="text-align: center;">Çizilen Şekil</h4>
+    <div id="CanvasOrtala" style="text-align: center;">
+    <canvas id="myCanvas" onclick="kordinatlariAl(event)" width="640" height="480">
+    Bu tarayici canvas desteklemiyor.
+    </canvas>
+    </div>
+    <!-- Buton baslangic -->
+    <div class="btn">
+    <button id="kare" type="button" onclick="tuval.addEventListener('click',cokgenCiz);">Dörtgen Çiz</button>
+    <button id="ucgen" type="button" onclick="tuval.addEventListener('click',ucgenCiz);">Üçgen Çiz</button>
+    <button id="cizgi" type="button" onclick="tuval.addEventListener('click',cizgiCiz);">Çizgi Çiz</button>
+    <button id="daire" type="button" onclick="tuval.addEventListener('click',daireCiz);">Daire Çiz</button>
+    <button id="temizle" type="button" onclick="temizle()">Temizle</button>
+    </div>
+    <!-- Buton bitis -->
+</body>
+<script src="js/app.js"></script>
+</html>
+
+
+
